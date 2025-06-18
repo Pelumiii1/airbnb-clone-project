@@ -31,7 +31,7 @@ The Airbnb Clone Project is a comprehensive, real-world full-stack application d
 - **Docker:** Containerization tool for consistent development and deployment environments.
 - **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes.
 
-## Database Design
+## Feature Breakdown
 
 ### 1. User Authentication
 
