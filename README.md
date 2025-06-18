@@ -31,6 +31,32 @@ The Airbnb Clone Project is a comprehensive, real-world full-stack application d
 - **Docker:** Containerization tool for consistent development and deployment environments.
 - **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes.
 
+## Database Design
+
+### Key Entities
+
+- **Users:** `id`, `name`, `email`, `password`, `created_at`  
+  _A user can own properties and make bookings._
+
+- **Properties:** `id`, `user_id`, `title`, `location`, `price`  
+  _Each property belongs to a user and has many bookings and reviews._
+
+- **Bookings:** `id`, `user_id`, `property_id`, `start_date`, `end_date`  
+  _A booking links a user to a property._
+
+- **Reviews:** `id`, `user_id`, `property_id`, `rating`, `comment`  
+  _Users leave reviews on properties._
+
+- **Payments:** `id`, `booking_id`, `amount`, `status`  
+  _Payments are tied to bookings._
+
+### Relationships
+
+- Users own properties and make bookings.
+- Properties have bookings and reviews.
+- Bookings connect users and properties.
+- Payments relate to bookings.
+
 ## Feature Breakdown
 
 ### 1. User Authentication
