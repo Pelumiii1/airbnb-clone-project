@@ -15,11 +15,8 @@ The Airbnb Clone Project is a comprehensive, real-world full-stack application d
 
 ## Tech Stack
 
-- **Frontend:** React, Next.js, Tailwind CSS
-- **Backend:** Django, Django REST Framework, Channels (for real-time chat)
-- **Database:** PostgreSQL / MySQL
-- **API:** REST API, GraphQL (optional)
-- **Authentication:** JWT tokens, advanced security practices
-- **DevOps:** Docker, CI/CD pipelines, deployment on cloud platforms (e.g., DigitalOcean)
-- **State Management:** Redux Toolkit (RTK Query), Zustand (optional)
-- **Other Tools:** Mapbox API for maps, Swagger UI for API testing
+- **Backend:** Django, Django REST Framework
+- **Database:** MySQL
+- **API:** GraphQL
+- **Authentication:** Advanced security practices
+- **DevOps:** Docker, CI/CD pipelines
