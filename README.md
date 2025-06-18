@@ -75,3 +75,22 @@ The Airbnb Clone Project is a comprehensive, real-world full-stack application d
 
 - **Indexing:** Implement indexes for fast retrieval of frequently accessed data
 - **Caching:** Use caching strategies to reduce database load and improve performance
+
+## CI/CD Pipeline
+
+### What is a CI/CD Pipeline?
+
+A CI/CD pipeline automates the process of integrating, testing, and deploying code changes. It helps deliver software faster and more reliably by reducing manual errors and enabling continuous updates.
+
+### Why It’s Important for This Project
+
+Using CI/CD ensures high code quality, faster development cycles, and smooth, automated deployments—key for building a stable and scalable Airbnb clone.
+
+### Tools Used
+
+- **GitHub Actions** for workflow automation
+- **Docker** for consistent containerized environments
+- **Jenkins, CircleCI, or GitLab CI** as alternative CI/CD platforms
+- **Kubernetes** for managing deployments (optional)
+
+These tools help automate testing and deployment, making development efficient and reliable.
