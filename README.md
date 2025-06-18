@@ -94,3 +94,22 @@ Using CI/CD ensures high code quality, faster development cycles, and smooth, au
 - **Kubernetes** for managing deployments (optional)
 
 These tools help automate testing and deployment, making development efficient and reliable.
+
+## API Security
+
+### Key Measures
+
+- **Authentication:** Secure user identity with JWT and MFA.
+- **Authorization:** Role-based access control to restrict resource access.
+- **Rate Limiting:** Prevent abuse by limiting API requests.
+- **Secure Communication:** Use HTTPS to protect data in transit.
+- **Input Validation:** Prevent injection and other attacks.
+
+### Why It Matters
+
+- Protects user data and privacy.
+- Secures payment transactions.
+- Prevents system abuse and attacks.
+- Builds user trust and ensures compliance.
+
+These measures keep the API safe, reliable, and trustworthy.
